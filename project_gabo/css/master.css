@@ -1,0 +1,50 @@
+body{
+  background-color: #F4F4F4;
+}
+
+.section{
+  /*margin-left: 350px;
+  margin-right: 570px ;*/
+  margin: 0 auto;
+  width: 400px;
+}
+.contenedor{
+    border-bottom: 1px solid black;
+}
+.flex{
+  display: flex;
+}
+.imagen_user {
+  padding-top: 13px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+
+.imagen_practica {
+  width: 400px;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 5px;
+  border-radius: 3px;
+}
+
+.p1{
+  margin-top: 0;
+  font-size: 15px;
+  color: gray;
+}
+a{
+  text-decoration: none;
+  color: 1E75AF;
+  font-weight: bold;
+}
+
+.p2{
+  font-size: 18px;
+  color: black;
+  padding-bottom: 25px;
+
+}
