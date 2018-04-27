@@ -1,0 +1,42 @@
+/* line 5, ../sass/example.scss */
+#clases {
+  background-color: gray;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+/* line 15, ../sass/example.scss */
+#clases .capa1 {
+  border: 1px solid blue;
+  padding: 20px;
+  position: relative;
+}
+/* line 21, ../sass/example.scss */
+#clases .capa2 {
+  border: 1px solid blue;
+  width: 100px;
+  /*#visibility : hidden;
+  #display: none;*/
+  /*display: block; #setransformaenunasolalinea;*/
+  /*display:line;
+  lotransformaenunasolalinea;*/
+  /*position:absolute;
+    sienmpre en relacion al ultimo elmento con position relative
+  */
+  right: 10px;
+  top: 10px;
+  position: fixed;
+  /*Se mantiene siempre estatico sin importar el ultimo div con posision relativa*/
+  z-index: 1000;
+  /*esto es para mandarlo al frente*/
+  background-color: white;
+}
+/* line 40, ../sass/example.scss */
+#clases .capa2 a {
+  font-size: 20px;
+  text-decoration: none;
+}
+/* line 43, ../sass/example.scss */
+#clases .capa2 a:hover {
+  text-decoration: underline;
+}

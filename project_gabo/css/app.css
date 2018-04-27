@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+}
+
+#logo{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top:-10px;
+  margin-right:
+}
+
+.logos{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  margin-right: 35px;
+}
+
+.header{
+  background: black;
+  width: 100%;
+  height: 59px;
+  min-height: 59px;
+  position: fixed;
+  position: relative;
+}
+nav{
+  color: white;
+  padding-top: 20px;
+  width: 70%;
+}
+
+a{
+  color: white;
+  font-size: 20px !important;
+}
+
+ul{;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+}
+li{
+  list-style: none;
+}
+
+.carrito{
+  #background-color: #FFC107;
+}
+
+.texto_blanco{
+  color:white;
+}
+
+.texto_azul{
+  color: #2196F3;
+}
+
+.loop{
+  background-image: url("../image/landing-splash-bg.png");
+  height: 317px;
+  min-height: 317px;
+  width: 100%;
+  position: absolute;
+}
+
+.h1-loop,
+.p-loop
+{
+  color: white;
+}
+
+.h1-loop{
+  font-size: 45px;
+  width: 50%;
+  margin: 6% 37%;
+  margin-bottom: 3%;
+}
+.p-loop{
+  font-size: 20px;
+  width: 50%;
+  margin: 0 43%
+}
+
+.p-loop strong{
+  font-size: 20px;
+  width: 50%;
+  margin: 0 45%
+}
+
+.products_view{
+  position: relative;
+}
+
+.products{
+  position: absolute;
+}

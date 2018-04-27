@@ -1,0 +1,18 @@
+$tamañoletra: 12px;
+@mixin text ($size) {
+  font-family: sans-serif;
+  font-size: $size;
+}
+
+@mixin body () {
+  width: 100%;
+  border: 1px solid red;
+}
+
+body{
+  @include body ();
+}
+
+p{
+  @include text($tamañoletra);
+}

@@ -1,0 +1,11 @@
+/* line 12, ../sass/functions.scss */
+body {
+  width: 100%;
+  border: 1px solid red;
+}
+
+/* line 16, ../sass/functions.scss */
+p {
+  font-family: sans-serif;
+  font-size: 12px;
+}

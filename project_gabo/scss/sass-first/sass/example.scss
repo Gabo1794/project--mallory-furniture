@@ -1,0 +1,49 @@
+$color_borde:blue;
+$width: 100%;
+$color_fondo:gray;
+$ancho:100px;
+#clases{
+  background-color : gray;
+  width: $width;
+  height: 100%;
+  position: absolute;
+
+  h1{
+
+  }
+
+  .capa1{
+    border: 1px solid blue;
+    padding: 20px;
+    position: relative;
+  }
+
+  .capa2{
+  border:1px solid $color_borde;
+  width: $ancho;
+  //width: $width;
+  /*#visibility : hidden;
+  #display: none;*/
+  /*display: block; #setransformaenunasolalinea;*/
+  /*display:line;
+  lotransformaenunasolalinea;*/
+  /*position:absolute;
+    sienmpre en relacion al ultimo elmento con position relative
+  */
+  right:10px;
+  top: 10px;
+  position:fixed;
+  /*Se mantiene siempre estatico sin importar el ultimo div con posision relativa*/
+  z-index:1000;
+  /*esto es para mandarlo al frente*/
+  background-color:white;
+    a{
+      font-size:20px;
+      text-decoration: none;
+      &:hover{
+        text-decoration:underline;
+      }
+    }
+}
+
+}
