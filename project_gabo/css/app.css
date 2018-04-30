@@ -58,6 +58,10 @@ li{
   color: #2196F3;
 }
 
+.texto_gris{
+  color: #999999;
+}
+
 .loop{
   background-image: url("../image/landing-splash-bg.png");
   height: 317px;
@@ -84,16 +88,66 @@ li{
   margin: 0 43%
 }
 
-.p-loop strong{
+.p-loop + strong{
+  color: white;
   font-size: 20px;
   width: 50%;
   margin: 0 45%
 }
 
-.products_view{
-  position: relative;
+.principal{
+  position: absolute;
+  width: 99.8%;
+  top: 375px;
 }
 
-.products{
-  position: absolute;
+.m-0{
+  margin: 0;
+}
+.m-t-0{
+  margin-top: 0;
+}
+
+.m-b-0{
+  margin-bottom: 0;
+}
+
+.m-b-35{
+  margin-bottom: 35px;
+}
+
+.m-l-10{
+  margin-left: 10px;
+}
+
+.products_view{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.articulos{
+  border: 1px solid #999999;
+  box-shadow: 2px 2px 5px #999;
+  width: 400px;
+  height: 380px;
+  margin: 20px;
+}
+
+.prod-image{
+  width: 380px;
+  height: 250px;
+  padding: 10px;
+  margin-bottom: 37px;
+}
+
+.btn-red{
+  color:#F44336;
+  background-color: white;
+  border: 1px solid #F44336;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
 }
